@@ -1,0 +1,20 @@
+#include <iostream>
+//задача begin19
+int main() {
+    // Ввод числа A
+    setlocale(LC_ALL, "RU");
+    int A;
+    std::cout << "Ведите число A:";
+    std::cin >> A;
+    // Вычисление A^2, A^4 и A^8
+    int A2 = A * A;    // A^2
+    int A4 = A2 * A2;  // A^4
+    int A8 = A4 * A4;  // A^8
+
+    // Вывод результатов
+    std::cout << "A^2 = " << A2 << std::endl;
+    std::cout << "A^4 = " << A4 << std::endl;
+    std::cout << "A^8 = " << A8 << std::endl;
+
+    return 0;
+}
